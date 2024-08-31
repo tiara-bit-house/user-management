@@ -16,4 +16,6 @@ function readData($connection)
     } else {
         echo "Tidak ada data.";
     }
+
+    $connection->close();
 }
