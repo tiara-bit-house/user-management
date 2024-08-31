@@ -6,4 +6,4 @@ if ($connection->connect_error) {
     die("Failed to connect to database : " . $connection->connect_error);
 }
 
-echo "Connect success";
+echo "Connect success \n";
