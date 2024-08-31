@@ -7,6 +7,4 @@ function addData($connection, $name, $point)
     } else {
         echo "Gagal tambah data";
     }
-
-    $connection->close();
 }

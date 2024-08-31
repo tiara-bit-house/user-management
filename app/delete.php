@@ -10,6 +10,4 @@ function deleteData($connection, $user_id)
     } else {
         echo "Gagal menghapus data";
     }
-
-    $connection->close();
 }

@@ -10,6 +10,4 @@ function updateData($connection, $name, $point, $user_id)
     } else {
         echo "Gagal update data";
     }
-
-    $connection->close();
 }
